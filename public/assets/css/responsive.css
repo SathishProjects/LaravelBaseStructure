@@ -1,0 +1,420 @@
+@media (max-width: 767px) {
+    .headerbar h2.heading {
+        line-height: 65px;
+    }
+    .header-right .loaction, .header-right .notifications, .header-right .headermenu {
+        float: left;
+        margin: 10px 0;
+    }
+    .table-tab .tablesaw-bar {
+        top: 6px;
+    }
+    .dashboard .status-overview h2 > a {text-align: center}
+    .row.status-overview h2 > span {
+        display: block;
+        margin-bottom: 11px;
+    }
+    .dashboard .status-overview h2 > a {
+        line-height: 34px;
+        margin-right: 10px;
+        padding: 0 28px;
+        display: inline-block
+    }
+    .dashboard .status-overview h2:after {display: none}
+    .driver-info .division {
+        margin-bottom: 15px;
+    }
+    .graph {
+        margin-bottom: 20px;
+    }
+    .dashboard .yellow {
+        margin-left: 0;
+    }
+    .dashboard > div:first-child > div {margin-bottom: 10px}
+    .dashboard .button {float: left;}
+    .headerbar .right-side, .header-right {
+        float: left;
+        width: 100%;
+        text-align: center
+    }
+    .header-right {
+        border-top: 1px solid #ddd;
+        padding: 15px
+    }
+    .header-right .button {
+        border-radius: 50px;
+        padding: 6px 12px;
+    }
+    .logo {
+        float: left
+    }
+    .mobile-feature {
+        float: right;
+        position: relative;
+        top: 5px;
+        right: 12px;
+        display: block
+    }
+    .mobile-feature .hexagon {
+        float: right
+    }
+    .header-right .hexagon {
+        display: none
+    }
+    .headermenu {
+        display: none
+    }
+    .headerbar h2.heading {
+        line-height: 52px;
+    }
+    .hexagon2 {
+        margin: 0;
+        position: absolute;
+    }
+    .leftpanel .userlogged .media-body h4 {
+        line-height: 38px;
+    }
+    .leftpanel .userlogged {
+        padding: 8px 5px 15px;
+        margin: 0   
+    }
+    .gernal-set {
+        border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    }
+    .leftpanel .nav-bracket li .glyphicon {
+        font-size: 12px;
+        top: -2px;
+        color: #fff
+    }
+    .leftpanel .nav-bracket li a:hover .glyphicon, .leftpanel .nav-bracket li a:active .glyphicon, .glyphicon, .leftpanel .nav-bracket li a:focus .glyphicon {
+        color: #1d2939
+    }
+    .order-detail .pickup-delivery .panel-body > div::after {
+        background: #bbc5d3 none repeat scroll 0 0;
+        content: "";
+        height: 100%;
+        left: 15px;
+        position: absolute;
+        top: 13px;
+        width: 2px;
+    }
+    .order-detail .pickup-delivery .panel-body > div:last-child:after {
+        display: none
+    }    
+    .order-detail .pickup-delivery .panel-body > div {
+        width: 100%;
+        padding: 0 0 30px 30px
+    }
+    .order-detail .pickup-delivery .panel-body > div .sprite {
+        left: 15px
+    }
+    .tooltip-here {
+        z-index: 3104
+    }
+    .order-detail .right-side .driver-ratings .person-info p.name,  .order-detail .right-side .activity-log .person-info p.name {
+        text-align: left
+    }
+    
+    .assign-driver .slimScrollDiv, .job-summary .slimScrollDiv, .assigned-unassigned .slimScrollDiv {
+        position: static !important;
+        width: 100% !important;
+    }
+    .job-summary .sprite.to-direction {
+        background-position: -213px -99px;
+        display: table;
+        height: 21px;
+        margin: 20px auto;
+        width: 17px;
+    }
+    .track-driver .track-driver-div .bottom-content > div.track-driver-button {
+        text-align: center
+    }
+    .track-driver .track-driver-div .bottom-content > div.track-driver-button button {
+        float: none
+    }
+    .track-driver .track-driver-div {
+        background: #fff none repeat scroll 0 0;
+        overflow: auto;
+        position: relative;
+        width: auto;
+    }
+    .track-driver .track-driver-div .routes {
+        white-space: nowrap;
+        width: 1391px;
+    }
+    .track-driver .track-driver-div .routes .heading-part {
+        float: left;
+        padding: 0 15px;
+        width: 201px;
+    }
+    .track-driver .track-driver-div .routes .time, .track-driver .track-driver-div .routes .time:last-child {
+        color: #444444;
+        display: inline-block;
+        font-size: 13px;
+        font-weight: bold;
+        width: 130px;
+        float: none 
+    }
+    .track-driver .track-driver-div .drivers-list {
+        width: 1391px
+    }
+    .track-driver .track-driver-div .drivers-list .single-driver:nth-child(2n+1) {
+        background: #f4f2ee none repeat scroll 0 0;
+    }
+    .track-driver .track-driver-div .drivers-list .single-driver .check-in {
+        float: left;
+        height: 58px;
+        padding: 10px 0;
+        width: 50px;
+        display: inline-block;
+    }
+    .track-driver .track-driver-div .drivers-list .single-driver .person-name {
+        display: inline-block;
+        margin: 0;
+        min-height: 53px;
+        padding: 6px 10px;
+        width: 148px;
+        display: inline-block;
+    }
+    .track-driver .track-driver-div .drivers-list .single-driver .time-track {
+        width: auto;
+        display: inline-block;
+        float: none
+    }
+    .track-driver .track-driver-div .drivers-list .single-driver {
+        float: left;
+        white-space: nowrap;
+        width: 100%;
+    }
+    .track-driver .track-driver-div .drivers-list .single-driver .time-track > .time,.track-driver .track-driver-div .drivers-list .single-driver .time-track > .time:last-child {
+        display: inline-block;
+        height: 58px;
+        left: 0;
+        width: 130px;
+    }
+    body .zone .dd {
+        position: static !important;
+        width: 100% !important
+    }
+}
+@media (min-width: 992px) {
+    .order-detail .basic-info > div:first-child {
+        padding: 15px 30px;
+    }
+    .zone .dd {
+        position: absolute;
+        top: -43px;
+        left: 18px;
+        width: 100px !important;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    .dashboard .visitors-overview .info-name, .dashboard .visitors-overview .info-percentage {width: 100%}
+    .order-detail .basic-info > div:nth-child(4) {
+        clear: both;
+    }    
+    .order-detail .right-side > div {
+        float: left;
+        width: 50%;
+    }
+    .order-detail .right-side > div.driver-ratings {
+        clear: both;
+    }
+    .assign-driver .slimScrollDiv, .job-summary .slimScrollDiv, .assigned-unassigned .slimScrollDiv {
+        position: static !important;
+        width: 100% !important;
+    }
+    .zone .dd {
+        left: 214px;
+        position: absolute;
+        top: -41px;
+        width: 100px !important;
+    }
+}
+@media(min-width: 768px) and (max-width: 870px) {
+    .headerbar h2.heading {
+        display: none
+    }
+}
+@media (max-width: 580px) {     
+    .headerbar h2.heading {
+        display: block;
+        float: none;
+        clear: both;
+        line-height: 52px;
+        border-top: 1px solid #e5e5e5;
+        margin: 0;
+        text-align: center;
+    }
+}
+@media (max-width: 473px) {
+    .logo img {
+        height: 23px;
+    }   
+}
+@media (min-width: 473px) and (max-width: 767px) {
+    .header-right {
+        align-items: center;
+        border-top: 1px solid #ddd;
+        display: flex;
+        float: left;
+        justify-content: center;
+        padding: 8px 0;
+        width: 100%;
+    }
+    .header-right .right-side {
+        align-items: center;
+        display: flex;
+        justify-content: center
+    }
+    .loaction, .button, .notifications {margin-left: 10px}
+}
+@media (min-width: 1025px) {    
+    .headerbar {
+        height: 50px;
+        padding-right: 10px;
+        margin-left: -200px;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        z-index: 99999;
+    }
+}
+@media (max-width: 1024px) {
+    .leftpanel {
+        padding: 0
+    }
+    .leftpanelinner {
+        padding: 0
+    }
+}
+@media (min-width: 768px) and (max-width: 1024px) {    
+    .headerbar {
+        display: flex;
+        align-items: center;
+        height: 50px;
+        padding-right: 10px;
+        margin-left: 0;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        z-index: 3;
+    }
+    .leftpanel-show .headerbar {
+        margin-left: -200px;
+    }
+}
+@media (min-width: 768px) {
+    .mainpanel {
+        margin-top: 50px;
+    }
+    .leftpanel-collapsed .headerbar{
+        margin-left: -51px
+    }
+    .header-right {
+        float: right;
+        padding: 6px 0;
+        margin-left: auto;
+    }
+    .dashboard .total-order {
+        display: flex;
+        align-items: center;
+    }  
+    h1.logo, .header-right .button, .hexagon, .headermenu, .right-side {
+        float: left
+    }
+    .order-detail .pickup-delivery .panel-body > div:after {
+        position: absolute;
+        content: "";
+        background: #BBC5D3;
+        width: 100%;
+        height: 2px;
+        right: 50%;
+        top: 13px;
+    }
+    .order-detail .pickup-delivery .panel-body > div:first-child:after {
+        display: none
+    }    
+    .order-detail .pickup-delivery .panel-body > div {
+        width: 20%;        
+        padding-top: 30px;  
+    }
+    .right-side-bar.open .left-side:after {
+        content: "";
+        border-right: 1px solid #E5E5E5;
+        position: fixed;
+        left: 73.66%;
+        top: 0px;
+        height: 100%;
+        z-index: -1;
+        transition-duration: 0.6s;
+        right: auto;
+    }
+    .right-side-bar:after {
+        right:105%
+    }          
+       
+}
+@media (max-width: 1199px) {
+    
+    .table-tab ul.nav.nav-tabs {
+        display: none;
+    }
+    .table-tab ul.nav.nav-tabs {
+        background: #555;
+        color: #fff;
+        padding: 0 20px;
+        float: left;
+        margin-top: 10px;
+        overflow: hidden;
+    }   
+
+    .table-tab ul.nav.nav-tabs li a {
+        color: #fff;
+        padding: 15px 0;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+        white-space: nowrap;
+    }
+    .table-tab ul.nav.nav-tabs li {
+        float: none;
+        margin-bottom: 0;
+    }
+    .table-tab ul.nav.nav-tabs li.active a,
+    .table-tab ul.nav.nav-tabs li.active a:focus,
+    .table-tab ul.nav.nav-tabs li.active a:hover
+    {
+        background: #555;color: #F8BD00;  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+        border-left: 0;
+        border-right: 0;
+    }
+    .table-tab .nav-tabs + .tab-content .tablesaw-bar, .table-tab> .nav-tabs + .tab-content .items-to-show + .table-responsive .tablesaw-bar {
+        top: 15px;
+    }
+    .table-responsive {
+        position: relative
+    }
+}
+@media (min-width: 1199px) {
+    .three_icons {
+        display: none;
+        padding: 15px;
+        font-size: 19px;
+        float: left
+    }
+}
+@media (min-width: 970px) {
+    .status-overview .lists {
+        position: absolute; 
+        right: 0;
+        top: -7px;
+    }
+}
+@media (max-width: 969px) {
+    .status-overview .lists {
+        float: left;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}
+
+
